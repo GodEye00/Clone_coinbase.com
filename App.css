@@ -1,0 +1,386 @@
+.menu{height: 76px; border-bottom: 2px solid black; 
+background-color: green;}
+
+.title{color: blue; font-family: sans-serif; font-size: 30px; float: left; 
+            margin: 0px 50px 0px 70px; font-weight: bolder;
+          background-color:orange; line-height: 80px;
+        width: 150px;}
+
+.nav div{float: left; font-size: 15px; margin-right: 50px; margin-top: 40px; 
+  font-family: sans-serif; color: black; text-decoration: none;
+   background-color: white; height: 33px; 
+  font-stretch: expanded; }
+
+.list{margin-left: 150px;}
+.list5{margin-right: 150px;}
+
+ .nav div:hover {border-bottom: 5px blue solid; margin-bottom: 0px;
+}
+
+.signAndSearch{float: right; margin-top: 0; background-color: yellow;
+height: 45px; margin: 20px 30px 0px 0px; width: 16%;}
+
+.signIn{float: left; margin-top: 20px; margin-left: 30px;}
+
+button.search{float:left; 
+  height: 50%px; width: 50%px;background-color: rgb(0, 81, 255); 
+color: white; margin-top: 10px; padding: 10px; font-size: 14px;
+border-radius: 5px; margin-left: 15px;
+}
+
+.Individuals{height: 200px; background-color: green; float:left; z-index: 999;
+  width:100%; color: black;}
+
+  .Learn1{
+    float: left; margin: 20px 10px 10px 400px;
+     background-color: white; font-size: 18px; font-weight: bold;
+     font-family: sans-serif; color: black
+
+  }
+
+  .TiTu {margin-top: 20px;}
+
+
+
+  .Learn2{
+    float: right; margin: 20px 400px 10px 50px; 
+     background-color: white;  width: 25%;
+  }
+
+
+.other{font-size: 18px; font-weight: bold;
+  margin-top: 20px; margin-bottom: 20px;
+  font-family: sans-serif;}
+
+.comment{font-size: 16px; margin-bottom:10px; font-stretch: expanded;
+  font-family: sans-serif; font-weight: 500; line-height: 20px;}
+
+  .SeeMore {color: blue; font-weight: 500}
+
+  .Individuals a:hover {color:skyblue}
+
+  .Individuals a {text-decoration: none;}
+
+  div span{margin-right: 10px;}
+
+  .Indiv{background-color: white;}
+
+.Indiv1Group1{margin: 10px 30px 10px 150px; background-color: blue;
+float: left; width: 300px;}
+
+.firstIndiv{float: left; }
+
+.secondIndiv{float: right;}
+
+.Indiv1Group2{margin: 10px 10px 10px 5px; background-color: yellow;
+  float: left; width:350px;} 
+
+.IndivGroup3{margin: 10px 190px 10px 10px; background-color: yellow;
+float: right; width: 320px;} 
+
+.ImageIndiv{height: 40px; width: 40px; border-radius: 30px; 
+  margin-top: 10px; margin-left: 10px;
+background-color: red; float: left; box-shadow: -2px 2px 2px 2px grey;}
+
+
+.IndivBAS{float: left; margin-left: 5px; margin-top: 10px; 
+font-size: 15px; font-family: sans-serif;
+font-weight: 600; }
+
+.IndivBAS:hover{ color: skyblue;}
+
+.IndivBAScomment{float: right; margin-top: 2px; margin-right: 60px;
+font-size: 14px; font-family: sans-serif; color: grey;
+font-weight: 600; font-stretch: expanded;}
+
+.IndivBAScomment:hover{color: black;}
+
+
+.otherIndiv{font-size: 18px; font-weight: bold;
+  margin-top: 20px; margin-bottom: 20px;
+  font-family: sans-serif;}
+
+.commentIndiv{font-size: 16px; margin-bottom:10px; font-stretch: expanded;
+  font-family: sans-serif; font-weight: 500; line-height: 20px;}
+
+
+  .wrapper{position: absolute; z-index: 1;}
+
+  .JumpStart{background-color:blue; float: left; margin: 80px 20px 10px 160px;
+     height: 600px; width: 35%; }
+
+.JumpStart a:hover{ text-decoration: none;
+
+}
+
+.circle{float: right; background-color: red; margin: 145px 150px 10px 750px; 
+height: 430px; width: 430px; border-radius: 430px 430px;
+position: absolute; z-index: 1;}
+
+.mobile{background-color: green; height: 495px; width: 260px;
+border-radius: 30px; margin-left: 65px; z-index: 2; position: absolute;
+float: right; margin: 100px 110px 10px 830px;}
+
+.bitcoinLink{margin-top: 50px; font-weight: 500; font-size: 14px;}
+
+.Jump{font-weight: bolder; font-size: 32px;  }
+
+.JumpComm{font-weight: 600; font-size: 20px; }
+
+input.Email{height: 65px; width: 60%; margin-right: 10px;
+font-size: 18px;}
+
+input.Email, input.getStarted{margin-top: 40px;}
+input.Email:hover {border-color: lightblue;}
+
+input.Email:focus{border-color: blue;}
+
+input.getStarted{font-size: 19x; width: 35%; height: 65px;
+font-weight: 400; color: deepskyblue;}
+
+input.getStarted:hover{color: blue;}
+
+.last{margin-top: 20px;  text-decoration: underline;}
+
+
+table{float: left; height: 350px; width: 85%; border: 1px solid grey; 
+font-size: 15px; margin: 100px 0px 50px 100px;  font-weight: 500;}
+
+td{border-bottom: 1px solid grey;}
+
+tr:hover{background-color: grey;}
+
+th{text-align: left; border-bottom: 1px solid grey;
+color: grey; font-weight: normal;}
+
+.Numbers{font-size: 18px; color: grey; }
+
+.b{margin-left: 10px; color: grey; }
+
+.change{color: green;}
+
+.buy{height: 50px; width: 60px; background-color: lightgreen; color: white;
+border-radius: 5px;}
+
+
+
+.Earn{background-color: yellow; font-weight: 600; font-size: 32px;
+height: 300px; width: 320px; float: left; margin-left: 100px; margin-top: 100px;
+}
+
+.discover{font-size: 14px; font-weight: 350; font-stretch: expanded;}
+
+.startButton{color: white; background-color: blue; height: 50px; 
+width: 130px; border-radius: 5px;}
+
+.Ampleforth{float: left; height: 520px; width: 550px; background-color: blue;
+margin-left: 200px;}
+
+.Ampdiv{float: left; height: 100px; width: 550px; margin-bottom: 20px;
+background-color: green;}
+
+.Amdiv:hover{box-shadow: -10px 10px 10px 10px gray; border-style: outset;
+border-radius: 5px;  }
+
+.Graph{background-color: yellow; height: 100px; 
+  width: 230px;  float: left; margin-left: 5px; }
+
+.Stellar{background-color: orange; height: 100px; 
+  width: 230px;  float: left; margin-left: 5px; } 
+
+.Compound{background-color: indianred; height: 100px; 
+  width: 230px;  float: left; margin-left: 5px;; }
+
+.Amp{background-color: red; height: 100px; 
+  width: 230px;  float: left; margin-left: 5px;}
+
+  .forth{width: 60px; margin-left: 5px; background-color:tomato;
+  float: left;}
+
+  .E{width: 150px; margin-left: 5px; float: left; 
+    background-color: orchid; color: lightgreen;
+    margin-top: 20px; font-weight: 500; font-size: 18px;
+  font-stretch: expanded;}
+
+
+
+.View{font-weight: 300; float: left; margin-top: 10px;}
+
+
+.Ampleforth img{height: 40px; width: 40px; border-radius: 40px 40px; 
+background-color: yellow; float: left; margin-top: 10px;}
+
+.AmpImg{float: left; height: 60px; width: 60px; background-color: violet;}
+
+
+.Create{float: left; margin-left: 300px; font-weight: bold; font-size: 40px;
+margin-top: 50px; font-stretch: extra-expanded;}
+
+.NewCreate{float: left; margin-left: 400px; font-weight: bold; font-size: 45px;
+  margin-top: 50px; font-stretch: extra-expanded;}
+
+.Coinbase{float: left; margin-left: 350px; font-weight: 400; font-size: 18px;
+ font-stretch: extra-expanded; color: grey; margin-top: 20px;}
+
+ .NewCoinbase{float: left; margin-left: 450px; font-weight: 400; font-size: 18px;
+  font-stretch: extra-expanded; color: grey; margin-top: 20px;}
+ 
+ 
+.customHr{border-bottom: 1px solid black; height: 10px; width: 100%;
+ float: left; margin-top: 150px}
+
+
+.DocImage{float: left; margin-left: 100px; background-color: blue;
+height: 500px; width: 400px; margin-top: 100px; }
+
+.ManageImg{float: left; height: 100px; width: 100px; 
+background-color: green; margin-bottom: 40px; }
+
+.ManageImg img{height: 80px; width: 80px; border-radius: 80px 80px;
+background-color:white; box-shadow: 2px 2px 2px 2px grey;}
+
+.Manage{float: right; height: 100px; width: 300px; 
+background-color: red; margin-bottom: 40px;}
+
+
+.phoneImg{float: left; margin-left: 
+  50px; height: 450px; width: 680px;
+background-color: tomato; margin-top: 100px;}
+
+
+.Ad{float: left; margin-left: 150px; height: 500px;
+   width: 1050px;
+background-color: greenyellow;
+ margin-top: 100px;}
+
+.Advert{float: left; margin-left: 40px; 
+  height: 450px; width: 300px;
+  background-color: white;}
+
+.CrytpImg{background-color: blue; 
+  height: 80px; width: 80px; 
+float: left; margin-left: 100px; }
+
+.source{font-size: 20px; font-weight: 600;
+   height: 30px; width: 300px;
+float: left; 
+text-align: center; margin-top: 100px;}
+
+.sourcecomm{float: left; font-size: 17px; 
+  font-weight: 400; height: 100;
+  width: 300px; text-align: center;
+   color: lightgrey;}
+
+.blue{float: left; font-size: 15px; 
+  font-weight: 500; height: 100;
+width: 300px; text-align: center; color: blue;}
+
+
+.Mon{background-color: rgb(0, 38, 255); 
+  height: 220px; width :100%;
+float: left; color: white;
+ margin-bottom: 50px;}
+
+.money{font-size: 53px; font-weight: bold; 
+  font-family: sans-serif;}
+
+.moneyFor{font-size: 15px; 
+  text-align: center; }
+
+.mo{float: left; margin-left: 200px; 
+   margin-top: 60px;}
+
+
+.Add{float: left; margin-left: 200px;
+   height: 200px; width: 1080px;
+  background-color: greenyellow;
+   margin-top: 70px;}
+  
+  .Advertise{float: left;  height: 200px; width: 210px;
+    background-color: white;}
+
+
+.custhr{border-bottom: 1px solid black;
+   height: 10px; width: 15%;
+      float: left;  margin-top: 35px;}
+
+      
+.Newsource{font-size: 20px; font-weight: 600;
+   height: 30px; width: 300px;
+  float: left; text-align: left; margin-top: 30px;}
+
+  .NewCrytpImg{background-color: blue; 
+    height: 70px; width: 70px; 
+    float: left; margin-left: 50px; }
+
+.Specific{float: left; height: 450px; 
+  background-color: rgb(135, 223, 235);
+width: 100%; margin-top:20px; }
+
+.NewEarn{background-color: yellow; 
+  font-weight: 600; font-size: 32px;
+height: 300px; width: 320px; float: left;
+ margin-left: 150px; margin-top: 130px;
+}
+
+.spacedivImg{float: right; height: 450px; width: 755px; 
+background-color: green; }
+
+
+.footer{float: left; width: 100%; 
+  height: 722px; background-color: lightblue; margin-top: 100px;}
+
+  .selectCopyR{background-color: green; float: left;
+  height: 200px; width: 220px; margin-left: 100px;}
+
+.Newtitle{color: blue; font-family: sans-serif; font-size: 30px; float: left; 
+  margin: 0px 50px 0px 0px; font-weight: bolder;
+background-color:orange; line-height: 80px;
+width: 150px;}
+
+.language{height: 33px; width: 220px; font-size: 16px; font-weight: 200;}
+
+.Blog{font-size: 17px; color: lightgrey; font-family: sans-serif;}
+
+.copyR{font-size: 17px; color: lightgrey; font-family: sans-serif;
+   margin-top: 15px; margin-bottom: 5px;}
+
+.comLearn{float: left; height: 600px; width: 220px; 
+background-color: red; margin-left: 150px;}
+
+.companyAgain{float:left; height:230px; width: 220px; 
+  background-color: orange; }
+
+  .LearnAgain{float:left; height:470px; width: 220px; 
+    background-color: blue; }
+
+.IndivBussDev{float: left; height: 500px; width: 220px; 
+      background-color: red;  margin-right: 50px;
+    margin-left: 20px;}
+      
+.IndivAgain{float:left; height: 200px; width: 220px; 
+        background-color: green }
+      
+.BussAgain{float:left; height: 225px; width: 220px; 
+          background-color:violet }
+
+.DevAgain{float:left; height: 275px; width: 220px; 
+            background-color: tomato; }
+
+
+.SupportAgain{float:left;}
+
+a{text-decoration: none; font-size: 16px; font-weight: 400;
+ color: grey; font-family: sans-serif;}
+
+a:hover{text-decoration: underline;}
+
+li{list-style: none; margin-bottom: 5px;}
+
+.firstListItem{font-size: 18px; font-weight: 500; font-family: sans-serif;}
+
+
+
+
+
+
