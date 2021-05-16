@@ -1,35 +1,54 @@
-.menu{height: 76px; border-bottom: 2px solid black; 
-background-color: green;}
+.menu{height: 66px; border-bottom: 1px solid lightgrey;}
 
-.title{color: blue; font-family: sans-serif; font-size: 30px; float: left; 
-            margin: 0px 50px 0px 70px; font-weight: bolder;
-          background-color:orange; line-height: 80px;
-        width: 150px;}
+.title{color: rgb(0, 132, 255); font-family: sans-serif; 
+  font-size: 27px; float: left; 
+            margin: 0px 50px 0px 70px;
+             font-weight: bolder; line-height: 70px;
+        width: 100px; height: 10px;}
 
-.nav div{float: left; font-size: 15px; margin-right: 50px; margin-top: 40px; 
-  font-family: sans-serif; color: black; text-decoration: none;
-   background-color: white; height: 33px; 
-  font-stretch: expanded; }
+.nav div{float: left; font-size: 14.5px; 
+  margin-right: 50px; margin-top: 30px; 
+  font-family: sans-serif; color: black;
+   text-decoration: none;
+   background-color: white; 
+   height: 33px; font-weight: 550;
+  font-stretch: extra-expanded; }
 
 .list{margin-left: 150px;}
 .list5{margin-right: 150px;}
 
- .nav div:hover {border-bottom: 5px blue solid; margin-bottom: 0px;
+ .nav div:hover {border-bottom: 5px blue solid; 
+  margin-bottom: 0px;
 }
 
-.signAndSearch{float: right; margin-top: 0; background-color: yellow;
-height: 45px; margin: 20px 30px 0px 0px; width: 16%;}
+.signAndSearch{float: right; margin-top: 0;
+height: 45px; margin: 10px 30px 0px 0px; 
+width: 16%;}
 
-.signIn{float: left; margin-top: 20px; margin-left: 30px;}
+.signIn{float: left; margin-top: 20px; font-size: 15px;
+  margin-left: 30px; font-weight: 500;}
+
+  .signIn:hover{color: rgb(0, 81, 255);}
 
 button.search{float:left; 
-  height: 50%px; width: 50%px;background-color: rgb(0, 81, 255); 
-color: white; margin-top: 10px; padding: 10px; font-size: 14px;
+  height: 80%; width: 45%; border: none;
+  background-color: rgb(0, 81, 255);
+color: white; margin-top: 10px; 
+padding: 10px; font-size: 14px;
 border-radius: 5px; margin-left: 15px;
 }
 
-.Individuals{height: 200px; background-color: green; float:left; z-index: 999;
-  width:100%; color: black;}
+button.search:hover{background-color:blue;}
+
+.Individuals{height: 200px;  background-color: white;
+  float:left; z-index: 3; position: absolute;
+  width:100%; color: black;
+box-shadow: 0px 3px 20px 0px lightgrey;}
+
+  .Individuals a:hover {color: rgb(0, 81, 255);
+  text-decoration: none;}
+
+  .Individuals a {text-decoration: none;}
 
   .Learn1{
     float: left; margin: 20px 10px 10px 400px;
@@ -38,7 +57,12 @@ border-radius: 5px; margin-left: 15px;
 
   }
 
-  .TiTu {margin-top: 20px;}
+  
+.Company1 a, .Company2 a, .Learn1 a{color: black; 
+  font-weight: 600; 
+font-size: 17px;}
+
+  .TiTu {margin-top: 20px; color: black}
 
 
 
@@ -48,6 +72,33 @@ border-radius: 5px; margin-left: 15px;
   }
 
 
+
+
+  .Company1{
+    float: left; margin: 20px 10px 10px 320px;
+     background-color: white; font-size: 19px; 
+     font-weight: bold;
+     font-family: sans-serif; color: black
+
+  }
+
+
+ 
+  .Company2{
+    float: left; margin: 20px 10px 10px 100px;
+     background-color: white; font-size: 19px; 
+     font-weight: bold;
+     font-family: sans-serif; color: black
+
+  }
+
+  .Company3{
+    float: right; margin: 20px 350px 10px 50px; 
+     background-color: white;  width: 20%;
+  }
+
+
+
 .other{font-size: 18px; font-weight: bold;
   margin-top: 20px; margin-bottom: 20px;
   font-family: sans-serif;}
@@ -55,73 +106,152 @@ border-radius: 5px; margin-left: 15px;
 .comment{font-size: 16px; margin-bottom:10px; font-stretch: expanded;
   font-family: sans-serif; font-weight: 500; line-height: 20px;}
 
-  .SeeMore {color: blue; font-weight: 500}
+  .SeeMore a{color: blue; font-weight: 600}
 
-  .Individuals a:hover {color:skyblue}
+  .SeeMore a:hover{color: rgb(38, 0, 255); }
 
-  .Individuals a {text-decoration: none;}
 
   div span{margin-right: 10px;}
 
-  .Indiv{background-color: white;}
 
-.Indiv1Group1{margin: 10px 30px 10px 150px; background-color: blue;
+
+
+  .IndividualsR{height: 280px; background-color: white;
+    float:left; z-index: 3; position: absolute;
+    width:100%; color: black; 
+    box-shadow: 0px 3px 20px 0px lightgrey;}
+  
+    .IndividualsR a:hover {color: rgb(0, 81, 255);
+    text-decoration: none;}
+  
+    .IndividualsR a {text-decoration: none;}
+
+
+
+    .IndividualsB{height: 200px; background-color: white;
+      float:left; z-index: 3; position: absolute;
+      width:100%; color: black; 
+      box-shadow: 0px 3px 20px 0px lightgrey;}
+    
+      .IndividualsB a:hover {color: rgb(0, 81, 255);
+      text-decoration: none;}
+    
+      .IndividualsB a {text-decoration: none;}
+
+
+      .IndividualsD{height: 250px; background-color: white;
+        float:left; z-index: 3; position: absolute;
+        width:100%; color: black; 
+        box-shadow: 0px 3px 20px 0px lightgrey;}
+      
+        .IndividualsD a:hover {color: rgb(0, 81, 255);
+        text-decoration: none;}
+      
+        .IndividualsD a {text-decoration: none;}
+
+
+
+.Indiv1Group1{margin: 30px 30px 10px 150px;
 float: left; width: 300px;}
 
-.firstIndiv{float: left; }
+.firstIndiv{float: left; margin-bottom: 20px;}
 
-.secondIndiv{float: right;}
+.secondIndiv{float: right; margin-bottom: 20px;}
 
-.Indiv1Group2{margin: 10px 10px 10px 5px; background-color: yellow;
+.secondIndivNew{float: right; }
+
+.Indiv1Group2{margin: 30px 10px 10px 5px; 
   float: left; width:350px;} 
 
-.IndivGroup3{margin: 10px 190px 10px 10px; background-color: yellow;
+.IndivGroup3{margin: 30px 170px 10px 10px; 
 float: right; width: 320px;} 
 
-.ImageIndiv{height: 40px; width: 40px; border-radius: 30px; 
-  margin-top: 10px; margin-left: 10px;
-background-color: red; float: left; box-shadow: -2px 2px 2px 2px grey;}
+.ImageIndiv{height: 40px; width: 40px; 
+  border-radius: 30px; 
+  margin-top: 10px; 
+  margin-left: 10px; float: left; 
+box-shadow: 0px 0px 5px 1px lightgrey;}
 
 
-.IndivBAS{float: left; margin-left: 5px; margin-top: 10px; 
-font-size: 15px; font-family: sans-serif;
-font-weight: 600; }
+.IndivBAS{float: left; margin-left: 7px; margin-top: 10px; 
+}
 
-.IndivBAS:hover{ color: skyblue;}
+.IndivBAS a{font-size: 18px; 
+  font-family: sans-serif; margin-left: 5px;
+  font-weight: 400; color: black;} 
 
-.IndivBAScomment{float: right; margin-top: 2px; margin-right: 60px;
-font-size: 14px; font-family: sans-serif; color: grey;
-font-weight: 600; font-stretch: expanded;}
+.IndivBAScomment{float: left; margin-top: 2px; 
+  margin-left: 7px;
+}
 
-.IndivBAScomment:hover{color: black;}
+.IndivBASEarncomment{float: right; margin-top: 2px; 
+  margin-right: 0px; 
+}
+
+.IndivBASEcomment{float: right; margin-top: 2px; 
+  margin-right: 46px; 
+}
+
+.IndivBASWalcomment {float: right; margin-top: 2px; 
+  margin-right: 53px; 
+}
+
+.IndivBASPCcomment{float: left; margin-top: 2px; 
+  margin-left: 7px;
+  
+}
+
+
+.IndivBASDcomment{float: left; margin-top: 2px; 
+  margin-left: 36px;
+  
+}
+
+
+.IndivBAScomment a{font-size: 18px; margin-left: 10px;
+  font-family: sans-serif; color: grey;}
+
+.IndivBAScomment a:hover{color: black;
+text-decoration: none;}
 
 
 .otherIndiv{font-size: 18px; font-weight: bold;
   margin-top: 20px; margin-bottom: 20px;
   font-family: sans-serif;}
 
-.commentIndiv{font-size: 16px; margin-bottom:10px; font-stretch: expanded;
-  font-family: sans-serif; font-weight: 500; line-height: 20px;}
+.commentIndiv{font-size: 16px; 
+  margin-bottom:10px; 
+  font-stretch: expanded;
+  font-family: sans-serif; 
+  font-weight: 500; line-height: 20px;}
 
 
   .wrapper{position: absolute; z-index: 1;}
 
-  .JumpStart{background-color:blue; float: left; margin: 80px 20px 10px 160px;
-     height: 600px; width: 35%; }
+
+
+  .JumpStart{ float: left; 
+    margin: 100px 20px 10px 160px;
+     height: 600px; width: 35%; 
+      z-index: 1;}
 
 .JumpStart a:hover{ text-decoration: none;
-
 }
 
-.circle{float: right; background-color: red; margin: 145px 150px 10px 750px; 
-height: 430px; width: 430px; border-radius: 430px 430px;
-position: absolute; z-index: 1;}
 
-.mobile{background-color: green; height: 495px; width: 260px;
-border-radius: 30px; margin-left: 65px; z-index: 2; position: absolute;
-float: right; margin: 100px 110px 10px 830px;}
+  .bitcoinTxt{float: left; margin-top: 5px; 
+    margin-left: 5px; color:  blue;
+    font-weight: 800;
+    font-size: 14px; font-family: sans-serif; 
+   font-stretch: expanded;  }
 
-.bitcoinLink{margin-top: 50px; font-weight: 500; font-size: 14px;}
+  .bitlink{height: 30px; width: 30px; 
+     }
+
+    .bitcoinImg{ float: left;}
+
+.bitcoinTxt:hover{text-decoration: underline;}
+
 
 .Jump{font-weight: bolder; font-size: 32px;  }
 
@@ -135,18 +265,37 @@ input.Email:hover {border-color: lightblue;}
 
 input.Email:focus{border-color: blue;}
 
-input.getStarted{font-size: 19x; width: 35%; height: 65px;
-font-weight: 400; color: deepskyblue;}
+input.getStarted{font-size: 15px; width: 36%; height: 73px;
+font-weight: 500; border: none; color: white;
+background-color: rgb(0, 81, 255); }
 
-input.getStarted:hover{color: blue;}
+input.getStarted:hover{background-color: blue;}
 
-.last{margin-top: 20px;  text-decoration: underline;}
+.last{margin-top: 20px;  text-decoration: underline;
+font-size: 12px; color: blue;}
+
+.last:hover{text-decoration: underline;}
+
+div.last{margin-top: 20px;}
+
+
+.circle{float: right; background-color: lightgrey; margin: 145px 150px 10px 750px; 
+  height: 430px; width: 430px; border-radius: 430px 430px;
+  position: absolute; z-index: 1;}
+  
+  .mobile{background-color: lightgrey; height: 495px; width: 260px;
+  border-radius: 30px; margin-left: 65px; z-index: 2; position: absolute;
+  float: right; margin: 100px 110px 10px 830px;
+  box-shadow: 0 0 0px 8px #ccc;}
+
+.mobileImg{height: 495px; width: 260px; border-radius: 30px;}
 
 
 table{float: left; height: 350px; width: 85%; border: 1px solid grey; 
-font-size: 15px; margin: 100px 0px 50px 100px;  font-weight: 500;}
+font-size: 20px; margin: 50px 0px 50px 100px;  font-weight: 400;}
 
-td{border-bottom: 1px solid grey;}
+td{border-bottom: 1px solid grey;
+    border-left: 0 none; border-right: 0 none;}
 
 tr:hover{background-color: grey;}
 
@@ -159,105 +308,138 @@ color: grey; font-weight: normal;}
 
 .change{color: green;}
 
-.buy{height: 50px; width: 60px; background-color: lightgreen; color: white;
+td img{height: 70px; width: 70px; 
+}
+
+.bit{height: 40px; width: 40px; 
+border-radius: 40px; margin-top: 5px;
+margin-right: 10px;}
+
+.buy{height: 50px; width: 60px; 
+  background-color: greenyellow; color: rgb(255, 255, 255);
 border-radius: 5px;}
 
+.buy:hover{background-color: green;}
 
+.coin{margin-bottom: 40px; font-size: 25px;}
 
-.Earn{background-color: yellow; font-weight: 600; font-size: 32px;
+.Earn{ font-weight: 600; font-size: 32px;
 height: 300px; width: 320px; float: left; margin-left: 100px; margin-top: 100px;
 }
 
 .discover{font-size: 14px; font-weight: 350; font-stretch: expanded;}
 
-.startButton{color: white; background-color: blue; height: 50px; 
+.startButton{color: white; background-color: rgb(0, 132, 255); height: 50px; 
 width: 130px; border-radius: 5px;}
 
-.Ampleforth{float: left; height: 520px; width: 550px; background-color: blue;
+.startButton:hover{background-color: blue;}
+
+.Ampleforth{float: left; height: 520px;
+   width: 550px; 
 margin-left: 200px;}
 
-.Ampdiv{float: left; height: 100px; width: 550px; margin-bottom: 20px;
-background-color: green;}
+.Ampdiv{float: left; height: 100px; 
+  width: 550px; margin-bottom: 20px;
+}
 
-.Amdiv:hover{box-shadow: -10px 10px 10px 10px gray; border-style: outset;
-border-radius: 5px;  }
+.Ampdiv:hover{box-shadow: -3px 3px 15px 0px lightgray; 
+  border-style: outset;
+border-radius: 15px;  }
 
-.Graph{background-color: yellow; height: 100px; 
+.Graph{height: 100px; 
   width: 230px;  float: left; margin-left: 5px; }
 
-.Stellar{background-color: orange; height: 100px; 
+.Stellar{ height: 100px; 
   width: 230px;  float: left; margin-left: 5px; } 
 
-.Compound{background-color: indianred; height: 100px; 
+.Compound{height: 100px; 
   width: 230px;  float: left; margin-left: 5px;; }
 
-.Amp{background-color: red; height: 100px; 
+.Amp{ height: 100px; 
   width: 230px;  float: left; margin-left: 5px;}
 
-  .forth{width: 60px; margin-left: 5px; background-color:tomato;
+  .forth{width: 60px; margin-left: 5px; 
   float: left;}
 
-  .E{width: 150px; margin-left: 5px; float: left; 
-    background-color: orchid; color: lightgreen;
+  .E{width: 150px; margin-left: 15px; float: left; 
+ color: rgb(0, 128, 49);
     margin-top: 20px; font-weight: 500; font-size: 18px;
   font-stretch: expanded;}
 
 
 
-.View{font-weight: 300; float: left; margin-top: 10px;}
+.View a{font-weight: 300; float: left; font-size: 14px;
+    margin-top: 30px; color: blue; 
+    text-decoration: none; }
+
+    .View a:hover{color: rgb(0, 132, 255);
+    text-decoration: none;}
 
 
-.Ampleforth img{height: 40px; width: 40px; border-radius: 40px 40px; 
-background-color: yellow; float: left; margin-top: 10px;}
+.Ampleforth img{height: 40px; width: 40px;
+   border-radius: 40px 40px; 
+ float: left; margin-top: 10px;}
 
-.AmpImg{float: left; height: 60px; width: 60px; background-color: violet;}
+.AmpImg{float: left; height: 60px; 
+  width: 60px; }
 
 
-.Create{float: left; margin-left: 300px; font-weight: bold; font-size: 40px;
-margin-top: 50px; font-stretch: extra-expanded;}
+.Create{float: left; margin-left: 300px; 
+  font-weight: bold; font-size: 40px;
+margin-top: 80px; font-stretch: extra-expanded;}
 
-.NewCreate{float: left; margin-left: 400px; font-weight: bold; font-size: 45px;
+.NewCreate{float: left; margin-left: 400px; 
+  font-weight: bold; font-size: 45px;
   margin-top: 50px; font-stretch: extra-expanded;}
 
-.Coinbase{float: left; margin-left: 350px; font-weight: 400; font-size: 18px;
- font-stretch: extra-expanded; color: grey; margin-top: 20px;}
+.Coinbase{float: left; margin-left: 350px; 
+  font-weight: 400; font-size: 18px;
+ font-stretch: extra-expanded; color: grey;
+  margin-top: 20px;}
 
- .NewCoinbase{float: left; margin-left: 450px; font-weight: 400; font-size: 18px;
-  font-stretch: extra-expanded; color: grey; margin-top: 20px;}
+ .NewCoinbase{float: left; margin-left: 450px; 
+  font-weight: 400; font-size: 18px;
+  font-stretch: extra-expanded; color: grey; 
+  margin-top: 20px;}
  
  
-.customHr{border-bottom: 1px solid black; height: 10px; width: 100%;
- float: left; margin-top: 150px}
+.customHr{border-bottom: 1px solid black; 
+  height: 10px; width: 100%;
+ float: left; margin-top: 50px}
 
 
-.DocImage{float: left; margin-left: 100px; background-color: blue;
+.DocImage{float: left; margin-left: 100px;
 height: 500px; width: 400px; margin-top: 100px; }
 
 .ManageImg{float: left; height: 100px; width: 100px; 
-background-color: green; margin-bottom: 40px; }
+ margin-bottom: 40px; }
 
 .ManageImg img{height: 80px; width: 80px; border-radius: 80px 80px;
-background-color:white; box-shadow: 2px 2px 2px 2px grey;}
+box-shadow: 2px 2px 10px 0px grey;}
 
 .Manage{float: right; height: 100px; width: 300px; 
-background-color: red; margin-bottom: 40px;}
+ margin-bottom: 40px;
+font-size: 23px; font-weight: 500;
+font-family: sans-serif; font-stretch: expanded;}
 
 
-.phoneImg{float: left; margin-left: 
-  50px; height: 450px; width: 680px;
-background-color: tomato; margin-top: 100px;}
+.phoneImg{float: left; margin-left:
+  50px; height: 600px; width: 680px;
+ margin-top: 90px;}
 
+.Buy{ font-size: 16px; font-weight: 0;
+font-family: sans-serif; color: grey; }
 
 .Ad{float: left; margin-left: 150px; height: 500px;
    width: 1050px;
-background-color: greenyellow;
+
  margin-top: 100px;}
 
 .Advert{float: left; margin-left: 40px; 
   height: 450px; width: 300px;
-  background-color: white;}
+}
 
-.CrytpImg{background-color: blue; 
+.CrytpImg{
   height: 80px; width: 80px; 
 float: left; margin-left: 100px; }
 
@@ -293,7 +475,7 @@ float: left; color: white;
 
 .Add{float: left; margin-left: 200px;
    height: 200px; width: 1080px;
-  background-color: greenyellow;
+  
    margin-top: 70px;}
   
   .Advertise{float: left;  height: 200px; width: 210px;
@@ -313,11 +495,11 @@ float: left; color: white;
     height: 70px; width: 70px; 
     float: left; margin-left: 50px; }
 
-.Specific{float: left; height: 450px; 
-  background-color: rgb(135, 223, 235);
+.Specific{float: left; height: 461px; 
+  background-color: lightblue;
 width: 100%; margin-top:20px; }
 
-.NewEarn{background-color: yellow; 
+.NewEarn{ 
   font-weight: 600; font-size: 32px;
 height: 300px; width: 320px; float: left;
  margin-left: 150px; margin-top: 130px;
@@ -328,44 +510,49 @@ background-color: green; }
 
 
 .footer{float: left; width: 100%; 
-  height: 722px; background-color: lightblue; margin-top: 100px;}
+  height: 722px;  margin-top: 100px;}
 
-  .selectCopyR{background-color: green; float: left;
+  .selectCopyR{ float: left;
   height: 200px; width: 220px; margin-left: 100px;}
 
-.Newtitle{color: blue; font-family: sans-serif; font-size: 30px; float: left; 
-  margin: 0px 50px 0px 0px; font-weight: bolder;
-background-color:orange; line-height: 80px;
+.Newtitle{color: blue; font-family: sans-serif; 
+  font-size: 30px; float: left; 
+  margin: 0px 50px 0px 0px; 
+  font-weight: bolder;
+ line-height: 80px;
 width: 150px;}
 
-.language{height: 33px; width: 220px; font-size: 16px; font-weight: 200;}
+.language{height: 33px; width: 220px; font-size: 16px; 
+  font-weight: 200;}
 
-.Blog{font-size: 17px; color: lightgrey; font-family: sans-serif;}
+.Blog{font-size: 17px; color: lightgrey;
+   font-family: sans-serif;}
 
-.copyR{font-size: 17px; color: lightgrey; font-family: sans-serif;
+.copyR{font-size: 17px; color: lightgrey;
+   font-family: sans-serif;
    margin-top: 15px; margin-bottom: 5px;}
 
 .comLearn{float: left; height: 600px; width: 220px; 
-background-color: red; margin-left: 150px;}
+ margin-left: 150px;}
 
 .companyAgain{float:left; height:230px; width: 220px; 
-  background-color: orange; }
+}
 
   .LearnAgain{float:left; height:470px; width: 220px; 
-    background-color: blue; }
+     }
 
 .IndivBussDev{float: left; height: 500px; width: 220px; 
-      background-color: red;  margin-right: 50px;
+    margin-right: 50px;
     margin-left: 20px;}
       
 .IndivAgain{float:left; height: 200px; width: 220px; 
-        background-color: green }
+         }
       
 .BussAgain{float:left; height: 225px; width: 220px; 
-          background-color:violet }
+         }
 
 .DevAgain{float:left; height: 275px; width: 220px; 
-            background-color: tomato; }
+           }
 
 
 .SupportAgain{float:left;}
@@ -373,7 +560,7 @@ background-color: red; margin-left: 150px;}
 a{text-decoration: none; font-size: 16px; font-weight: 400;
  color: grey; font-family: sans-serif;}
 
-a:hover{text-decoration: underline;}
+a:hover{text-decoration: underline; color:rgb(0, 132, 255)}
 
 li{list-style: none; margin-bottom: 5px;}
 
